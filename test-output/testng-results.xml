@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-16T11:30:32 IST" name="Default suite" finished-at="2025-08-16T11:30:37 IST" duration-ms="4412">
+    <groups>
+    </groups>
+    <test started-at="2025-08-16T11:30:32 IST" name="Default test" finished-at="2025-08-16T11:30:37 IST" duration-ms="4412">
+      <class name="apicode.base1.MainClassOne2">
+        <test-method is-config="true" signature="basetestOne()[pri:0, instance:apicode.base1.MainClassOne2@481a996b]" started-at="2025-08-16T11:30:32 IST" name="basetestOne" finished-at="2025-08-16T11:30:33 IST" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basetestOne -->
+        <test-method signature="testPOST()[pri:1, instance:apicode.base1.MainClassOne2@481a996b]" started-at="2025-08-16T11:30:33 IST" name="testPOST" finished-at="2025-08-16T11:30:36 IST" duration-ms="3483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOST -->
+      </class> <!-- apicode.base1.MainClassOne2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
