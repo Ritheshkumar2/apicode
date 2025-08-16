@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="apicode.base.MainClass"/>
+      <class name="apicode.base1.MainClassOne"/> <!-- Make sure this is correct -->
+       <class name="apicode.base1.MainClassOne2"/> <!-- Make sure this is correct -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
