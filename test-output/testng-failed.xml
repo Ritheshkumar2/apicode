@@ -5,7 +5,8 @@
     <classes>
       <class name="apicode.base1.MainClassOne">
         <methods>
-          <include name="testGet"/>
+          <include name="basetestOne"/>
+          <include name="testPut"/>
         </methods>
       </class> <!-- apicode.base1.MainClassOne -->
     </classes>

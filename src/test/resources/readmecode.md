@@ -42,3 +42,22 @@ app.delete('/api/products/:name', (req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
+
+
+// PUT /api/products/:oldName -> update to new name
+app.put('/api/products/:oldName', (req, res) => {
+  const { oldName } = req.params;
+  const { newName } = req.body;
+  const index = products.indexOf(oldName);
+
+  if (index === -1) {
+    return res.status(404).json({ error: `${oldName} not found!` });
+  }
+  if (!newName) {
+    return res.status(400).json({ error: "New product name is required" });
+  }
+
+  products[index] = newName;
+  res.json({ message: `${oldName} updated to ${newName}`, products });
+});
+
